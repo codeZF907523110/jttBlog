@@ -1,0 +1,98 @@
+/* ===== Google Fonts ===== */
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+
+/* ===== CSS Variables ===== */
+:root {
+  /* 粉色系主题色 */
+  --jtt-pink: #ff6b9d;
+  --jtt-pink-light: #ffa4c4;
+  --jtt-pink-lighter: #ffe0ec;
+  --jtt-pink-dark: #e0557f;
+  --jtt-purple: #c084fc;
+  --jtt-purple-light: #e0b0ff;
+  --jtt-blue: #67c3f3;
+  --jtt-blue-light: #a5d8f8;
+  --jtt-yellow: #fbbf24;
+  --jtt-green: #6ee7b7;
+
+  /* 背景色 */
+  --jtt-bg: #fff5f9;
+  --jtt-bg-card: #ffffff;
+  --jtt-bg-banner: linear-gradient(135deg, #ffe0ec 0%, #fde2f3 30%, #e8d5f5 70%, #d4e8f9 100%);
+
+  /* 文字色 */
+  --jtt-text: #4a4a6a;
+  --jtt-text-light: #8888a8;
+  --jtt-text-dark: #2d2d4a;
+
+  /* 圆角 */
+  --jtt-radius: 16px;
+  --jtt-radius-sm: 10px;
+  --jtt-radius-lg: 24px;
+
+  /* 阴影 */
+  --jtt-shadow: 0 4px 20px rgba(255, 107, 157, 0.12);
+  --jtt-shadow-hover: 0 8px 32px rgba(255, 107, 157, 0.22);
+
+  /* 字体 */
+  --jtt-font-title: "ZCOOL KuaiLe", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --jtt-font-body: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+}
+
+/* ===== Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--jtt-font-body);
+  background: var(--jtt-bg);
+  color: var(--jtt-text);
+  overflow-x: hidden;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--jtt-pink-lighter);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--jtt-pink-light);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--jtt-pink);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  :root {
+    --jtt-radius: 12px;
+    --jtt-radius-sm: 8px;
+    --jtt-radius-lg: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}

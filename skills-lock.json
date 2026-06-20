@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "adopt-agentic-vitepress": {
+      "source": "cuipengfei/adopt-agentic",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/adopt-agentic-vitepress/SKILL.md",
+      "computedHash": "8f3a5624aab2b0ecc63c575ef37d67d871612f525927a56887ff479735a8b031"
+    },
+    "vitepress": {
+      "source": "alexanderop/nuxt-sync-engine",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/vitepress/SKILL.md",
+      "computedHash": "acd5636f19491ad14d443a16ebd447fa177d9d390f11500987335a3b2f2a9c14"
+    }
+  }
+}
