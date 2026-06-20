@@ -10,7 +10,9 @@
     "lint": "eslint . --ext .ts,.cjs,.js,.mjs --no-ignore",
     "lint:fix": "eslint . --ext .ts,.cjs,.js,.mjs --no-ignore --fix",
     "format": "prettier --write .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "build": "vitepress build docs",
+    "dev": "vitepress dev docs"
   },
   "lint-staged": {
     "*.{ts,js,cjs,mjs,vue}": [
