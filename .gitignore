@@ -3,3 +3,5 @@ dist
 .vitepress/cache
 .vitepress/dist
 .yarn
+agents
+node_modules/
